@@ -28,11 +28,11 @@ Publication has not been clarified yet. However, Gitlab Pages and similar servic
 
 The documentation is split into:
 * Definitions and Nomenclatur (per directory)
-* Ion traps
-* Mounts
-* Passive electronics: filter boards and resonators
-* Active electronics: DACs and RF drives
-* Optical integration
+* [Ion traps](ion_traps/README_ion_traps.md)
+* [Mounts](mounts/README_mounts.md)
+* [Passive electronics: filter boards and resonators](passive_electronics/README_passive_electronics.md)
+* [Active electronics: DACs and RF drives](active_electronics/README_active_electronics.md)
+* [Optical integration](optical_integration/README_optical_integration.md)
 
 Each of these folders come with their own guidelines and templates to address the respective documentation requirements.
 
