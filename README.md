@@ -27,7 +27,6 @@ Publication has not been clarified yet. However, Gitlab Pages and similar servic
 ## Approach
 
 The documentation is split into:
-* Definitions and Nomenclatur (per directory)
 * [Ion traps](ion_traps/README_ion_traps.md)
 * [Mounts](mounts/README_mounts.md)
 * [Passive electronics: filter boards and resonators](passive_electronics/README_passive_electronics.md)
