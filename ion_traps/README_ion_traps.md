@@ -8,9 +8,11 @@ Ion-traps come in several designs, depending on the main application. Historical
 
 These traps allowed the storage of both individual ions and clouds of ions. However, as people wanted to trap and control a growing number of ions, the segmentation of electrodes from the initial design became necessary.
 
-# Definitions and Nomenclatur
+## Definitions and Nomenclatur
 
-# Simulation suite
+## Simulation suite
+
+Certification of traps requires simulations of the respective electric and magnetic fields (including the full mount, vacuum chamber, etc) to ensure that requirements for health-care are met. Furthermore, the simulations need to be cross-checked with experimentally obtained data, before any kind of certification can proceed. More details on best-practices regarding the recommended simulations to predict the performance of ion-traps can be found [here](ion_trap_simulation_suite.md)
 
 ## Overview of passive electronics for ion-trap based quantum technologies
 
