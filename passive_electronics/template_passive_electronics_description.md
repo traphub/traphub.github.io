@@ -43,3 +43,7 @@
 ## Experience and further comments
 
 *most importantly, state the experience with the device, e.g. reliability, additional aspects or considerations, as well as ideas on how to potentially improve or extend the capabilities*
+
+## References
+
+*Additional references and, ideally, links to publications, thesis, etc*
