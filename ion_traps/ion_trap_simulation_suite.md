@@ -2,8 +2,10 @@
 
 ## Background
 
-## Metrics to be calculated
+## Metrics to be calculated, and how they are defined
 
-## Program Overview
+## File standards
+
+## Overview of suitable programs
 
 ## Simulation tool-chain
