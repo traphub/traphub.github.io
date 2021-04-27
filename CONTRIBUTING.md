@@ -4,6 +4,10 @@ The master branch shall include finalized and review information only.
 * `branches`:
 Contributors shall prepare the new content in respective branches.
 
+# Review process
+
+All contributions need to be review and approved by at least two nodes that are not identical to the contributing entity. This approach ensures that documents derived from this repository can be considered to be peer-reviewded.
+
 # Merge requests
 The master branch is protected, such that directly pushing commits to `master` is disabled and merging is allowed for maintainers only. Create a new branch for a new feature and open a merge request which has to be assigned to one of the repository maintainers when the branch is ready to be merged. After **review and approval by two maintainers**, the new branch is merged into `master` by a squash merge and the development branch is being deleted.
 

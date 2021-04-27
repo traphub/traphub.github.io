@@ -41,3 +41,4 @@ The content presented here has been gathered and reviewed and is maintained by r
 * [ETH Zurich, team of Prof. Jonathan Home](https://tiqi.ethz.ch/)
 * [University of Innsbruck, team of Prof. Rainer Blatt](https://quantumoptics.at/en/)
 * [University of Mainz, team of Prof. Ferdinand Schmidt-Kaler](https://www.quantenbit.physik.uni-mainz.de/)
+Regarding details on the contribution and review process, please have a look [here](CONTRIBUTING.md).
