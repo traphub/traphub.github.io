@@ -42,3 +42,16 @@ The content presented here has been gathered and reviewed and is maintained by r
 * [University of Innsbruck, team of Prof. Rainer Blatt](https://quantumoptics.at/en/)
 * [University of Mainz, team of Prof. Ferdinand Schmidt-Kaler](https://www.quantenbit.physik.uni-mainz.de/)
 Regarding details on the contribution and review process, please have a look [here](CONTRIBUTING.md).
+
+## File formats
+
+The design files should be provided in file formats that are readable without the need for commercial licenses. As a minimum requirement, proprietary design files should be complemented by human readable version in the portable document format (`PDF`). Images should be proved in `PNG` or `JPG` format.
+
+We suggest to use these file formats for the following component types.
+
+| Component type | Preferred format | Alternative formats |
+| ------ | ------ | ------ |
+| Electronic schematic | [KiCad](https://www.kicad.org/) Schematic | [Altium](https://www.altium.com/altium-designer/) |
+| Electronic Printed circuit board | [KiCad](https://www.kicad.org/) PCB                | [Gerber](https://en.wikipedia.org/wiki/Gerber_format), [Altium](https://www.altium.com/altium-designer/) |
+| Mechanical component | [STEP](https://en.wikipedia.org/wiki/ISO_10303-21) | [DWG](https://en.wikipedia.org/wiki/.dwg), [Solidworks](https://www.solidworks.com/), [Inventor](https://www.autodesk.com/products/inventor/) |
+
