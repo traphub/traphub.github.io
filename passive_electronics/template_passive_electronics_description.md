@@ -15,6 +15,10 @@
 ## Targeted specifications
 
 *If available, provide target specifications*
+### electrical specifications
+### UHV
+### mechanical/footprint
+### thermal (cryo)
 
 ## Technical Approach
 
