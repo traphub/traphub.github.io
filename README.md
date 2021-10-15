@@ -2,11 +2,11 @@
 
 ## Background
 
-Ion traps are one of the leading platforms in several quantum technologies pillars: from atomic clocks to quantum communication, via quantum simulations to quantum computing. These efforts have been, to a very large degree, been performed in the academic domain, with more and more commercial entities showing interest in the ion-trap platform. However, most of the information and documentation regarding ion-traps and the used accessories such as mounts, resonators, filters, etc. is distributed over research articles and thesis.
+Ion traps are one of the leading platforms in several quantum technologies pillars: from atomic clocks to quantum communication, via quantum simulations to quantum computing. These efforts have, to a very large degree, been performed in the academic domain, with more and more commercial entities showing interest in the ion-trap platform. However, most of the information and documentation regarding ion traps and the used accessories such as mounts, resonators, filters, etc. is distributed over research articles and theses.
 
 ## Challenge
 
-* Bring the ion-trap platform to the next technical readiness level,
+* Bring the ion trap platform to the next technical readiness level,
 * addressing the possibility of a bottom-up approach for standardization,
 * and leveraging the existing know-how such that motivated new entities can join this interesting field of research and engineering
 
@@ -14,9 +14,9 @@ is highly challenging when the available data in solutions that have worked and,
 
 ## Goal
 
-An informal group of ion-trap researchers and developers have joint forces to collect information to facilitate the coordination, documentation and general improvement of the ion-trap platform. As such, the documentation spans from ion traps (surface traps, 3D traps, ...), trap mounts (with all the necessary information such as suitable temperature ranges they may be exposed to), filter boards and resonators, DACs and RF drives (both room temperature and cryo, for in-vacuum and air-based operation), to optical integration.
+An informal group of ion trap researchers and developers have joined forces to collect information to facilitate the coordination, documentation and general improvement of the ion-trap platform. As such, the documentation spans from ion traps (surface traps, 3D traps, ...), trap mounts (with all the necessary information such as suitable temperature ranges they may be exposed to), filter boards and resonators, DACs and RF drives (both room temperature and cryo, for in-vacuum and air-based operation), to optical integration.
 
-Seeing that research and engineering regarding ion-trap technologies is rapidly evolving, the content, offered details, and structure is up for discussion.
+Seeing that research and engineering regarding ion trap technologies is rapidly evolving, the content, offered detail, and structure is up for discussion.
 
 ## Confidentiality and Publication
 
@@ -54,4 +54,4 @@ We suggest to use these file formats for the following component types.
 | Electronic schematic | [KiCad](https://www.kicad.org/) Schematic | [Altium](https://www.altium.com/altium-designer/) |
 | Electronic Printed circuit board | [KiCad](https://www.kicad.org/) PCB                | [Gerber](https://en.wikipedia.org/wiki/Gerber_format), [Altium](https://www.altium.com/altium-designer/) |
 | Mechanical component | [STEP](https://en.wikipedia.org/wiki/ISO_10303-21) | [DWG](https://en.wikipedia.org/wiki/.dwg), [Solidworks](https://www.solidworks.com/), [Inventor](https://www.autodesk.com/products/inventor/) |
-
+| Mask layout | [GDSII](https://en.wikipedia.org/wiki/GDSII) | [DXF](https://en.wikipedia.org/wiki/AutoCAD_DXF) |
