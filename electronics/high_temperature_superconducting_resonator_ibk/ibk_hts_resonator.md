@@ -1,5 +1,4 @@
-# Device Name
-Innsbruck high-temperature superconducting resonator
+# Innsbruck high-temperature superconducting resonator
 
 
 ## Contributors
@@ -13,11 +12,11 @@ Matthias F. Brandl, Martin van Mourik, Philipp Schindler, Thomas Monz, Rainer Bl
 ## Application
 For the operation of ion traps in a cryogenic environment, a crucial aspect is the thermal load to the cryostat. Reducing the thermal load typically requires the usage of cabling with a low thermal conductivity, which also entails low electric conductivity (Wiedemann-Franz law). Such cabling, if part of the resonant RF circuit driving the ion trap, would severely limit the quality factor of the RF resonator, and lead to excess heat dissipation. A solution to this problem is to operate a low-loss resonator within the vacuum, directly at the cold stage, where wires with a high conductivity can be used. In that way, also the capacitive load of the resonator is minimized, leading to a smaller charging current and increasing the resonator's voltage gain. The latter decreases the required drive amplitude, further minimizing the heat dissipation.
 
-The Innsbruck high-temperature superconducting (HTS) resonator uses a spiral coil made from the high-temperature superconductor yttrium barium copper oxide (YBCO). The coil is patterned out of a YBCO film coated onto a sapphire substrate, and is mounted within a grounded enclosure to shield trapped ions from the generated RF magnetic fields. The coil has an inductance of about 1.4 µH and becomes superconducting for temperatures $`T<88\,`$K, with a measured quality factor $`Q=1172(241)`$ at $`\omega_0=2\pi\times44.3\,`$MHz.
+The Innsbruck high-temperature superconducting (HTS) resonator uses a spiral coil made from the high-temperature superconductor yttrium barium copper oxide (YBCO). The coil is patterned out of a YBCO film coated onto a sapphire substrate, and is mounted within a grounded enclosure to shield trapped ions from the generated RF magnetic fields. The coil has an inductance of about 1.4 µH and becomes superconducting for temperatures $$T<88\,$$K, with a measured quality factor $$Q=1172(241)$$ at $$\omega_0=2\pi\times44.3\,$$MHz.
 
 
 ## Background
-The HTS coil was designed, wired up and tested by Matthias Brandl at Innsbruck University in 2015 [[1,2]](#references). The main aim was to create a resonator coil that can be reproducibly manufactured and which minimizes RF losses to maximize the resonator's quality factor $`Q`$, and thus the voltage gain $`G_V`$. The rationale behind that is that RLC tank resonators used for ion traps are typically limited by the Ohmic losses in the coil wire.
+The HTS coil was designed, wired up and tested by Matthias Brandl at Innsbruck University in 2015 [[1,2]](#references). The main aim was to create a resonator coil that can be reproducibly manufactured and which minimizes RF losses to maximize the resonator's quality factor $$Q$$, and thus the voltage gain $$G_V$$. The rationale behind that is that RLC tank resonators used for ion traps are typically limited by the Ohmic losses in the coil wire.
 
 
 ## Legal status
@@ -33,48 +32,48 @@ Note: For some quantities, no uncertainties could be found in the source of info
 ### Electrical
 |    | targeted | achieved |
 |----|----------|----------|
-| inductance $`L`$ | 1.3 µH - 2.6 µH | 1.4 µH |
-| resonance frequency $`f_0`$ | ~ 40 MHz | 44.3 MHz |
-| load capacitance $`C`$ | 10 pF - 13 pF | 9.2 pF |
-| quality factor $`Q`$ | n.a. | 1172(241) |
-| voltage gain $`G_V`$ | n.a. | 92(9) |
+| inductance $$L$$ | 1.3 µH - 2.6 µH | 1.4 µH |
+| resonance frequency $$f_0$$ | ~ 40 MHz | 44.3 MHz |
+| load capacitance $$C$$ | 10 pF - 13 pF | 9.2 pF |
+| quality factor $$Q$$ | n.a. | 1172(241) |
+| voltage gain $$G_V$$ | n.a. | 92(9) |
 
 (Note: Ref [[1]](#references) gives an upper inductance target of 1.6 µH instead of the 2.6 µH given here. This is likely to be a typo, see also the inductance calculation in the [Technical drawings](#technical-drawings) section.)
 
 #### Impedance matching
 A schematic of the impedance matching circuit is shown below:
 ![Schematic of the matching circuit.](supplemental_material/matching-network.JPG)<br/>
-Figure: Matching network with a matching capacitor $`C_M`$ parallel to the $`RLC`$-series resonator. The choke coil $`L_{choke}`$ avoids a possible charging up of $`C`$.
+Figure: Matching network with a matching capacitor $$C_M$$ parallel to the $$RLC$$-series resonator. The choke coil $$L_{choke}$$ avoids a possible charging up of $$C$$.
 
 Matching parameters:
 
 |    | targeted | achieved |
 |----|----------|----------|
 | input impedance | 50 Ohm | 50 Ohm |
-|  $`C_M`$  | $`\approx 900`$ pF | $`\approx 900`$ pF |
-|  $`L_{choke}`$  | 1 µH | n.a. |
-|  $`P_{ref}`$  | 0 % | < 2% |
+|  $$C_M$$  | $$\approx 900$$ pF | $$\approx 900$$ pF |
+|  $$L_{choke}$$  | 1 µH | n.a. |
+|  $$P_{ref}$$  | 0 % | < 2% |
 
 ### UHV
 | targeted | achieved |
 |----------|----------|
-| UHV-compatible at  $`T<20\,`$K | UHV-compatible at  $`T<20\,`$K |
+| UHV-compatible at  $$T<20\,$$K | UHV-compatible at  $$T<20\,$$K |
 
-UHV compatibility was demonstrated by trapping of ions at a temperature $`T<20\,`$K. UHV compatibility at higher temperatures is likely, but was not tested.
+UHV compatibility was demonstrated by trapping of ions at a temperature $$T<20\,$$K. UHV compatibility at higher temperatures is likely, but was not tested.
 
 ### Mechanical/footprint
 | targeted | achieved |
 |----------|----------|
-| minimze resonator volume | outer dimensions of the shielded resonator are 57 mm $`\times`$ 40 mm $`\times`$ 10.2 mm |
+| minimze resonator volume | outer dimensions of the shielded resonator are 57 mm $$\times$$ 40 mm $$\times$$ 10.2 mm |
 
 ### Thermal (cryo)
 |    | targeted | achieved |
 |----|----------|----------|
-| operation temperature $`T`$  | $`\leq 77`$ | $`<88`$ |
+| operation temperature $$T$$  | $$\leq 77$$ | $$<88$$ |
 
 
 ## Technical approach
-The HTS coil is made from YBCO. Commercial fabrication only allows for 2D structuring, but can be manufactured in a very accurate and reproducible way. The demonstrated HTS spiral coil was produced by Ceraco Ceramic Coating GmbH. A YBCO film of 330 nm thickness was coated on a sapphire wafer. To facilitate soldered connections, a 200 nm film of gold was placed on top of the superconductor. This gold film is thinner than the skin depth at the expected 40 MHz drive frequency, such that the RF field can penetrate into the YBCO film below and the overall RF losses of the resonator should not be dominated by the losses in the gold film. The critical temperature of the YBCO film was around 88 K, and its critical current density higher than $`2\times10^6\,\text{A/cm}^2`$ at 77 K. The estimated peak current in the coil during trap operation is 0.64 A (the source of information does not mention trap specifications leading to that estimate, such as required RF voltage or trap capacitance). Hence, traces with a width of more than 100 μm are required to stay below the critical current density. The manufactured spiral coil has a trace width of 300 μm, a trace gap of 150 μm, and 10 windings. 9 different coils were designed, with varying outer diameter between 14 and 20 mm. The estimated inductance of these coils is 1.3 μH to 2.6 μH.
+The HTS coil is made from YBCO. Commercial fabrication only allows for 2D structuring, but can be manufactured in a very accurate and reproducible way. The demonstrated HTS spiral coil was produced by Ceraco Ceramic Coating GmbH. A YBCO film of 330 nm thickness was coated on a sapphire wafer. To facilitate soldered connections, a 200 nm film of gold was placed on top of the superconductor. This gold film is thinner than the skin depth at the expected 40 MHz drive frequency, such that the RF field can penetrate into the YBCO film below and the overall RF losses of the resonator should not be dominated by the losses in the gold film. The critical temperature of the YBCO film was around 88 K, and its critical current density higher than $$2\times10^6\,\text{A/cm}^2$$ at 77 K. The estimated peak current in the coil during trap operation is 0.64 A (the source of information does not mention trap specifications leading to that estimate, such as required RF voltage or trap capacitance). Hence, traces with a width of more than 100 μm are required to stay below the critical current density. The manufactured spiral coil has a trace width of 300 μm, a trace gap of 150 μm, and 10 windings. 9 different coils were designed, with varying outer diameter between 14 and 20 mm. The estimated inductance of these coils is 1.3 μH to 2.6 μH.
 
 ![Photograph of the YBCO coil.](supplemental_material/YBCO-coil.jpg)<br/>
 Figure: Photograph of the spiral YBCO coil with a 200 nm protection layer of gold on a 25 mm × 25 mm piece of sapphire.
@@ -94,18 +93,18 @@ In the drawing, there are 9 coils, as displayed below
 ![Image of the HTS coil designs.](supplemental_material/SpiralCoils.png) <br/>
 Figure: Layout of HTS coils with varying diameter.
 
-Each coil has a trace width of $`w=`$ 300 μm, a trace gap of $`s=`$ 150 μm, and $`n=`$ 10 windings. The outer and inner diameters $`D, d`$ are varied as listed below.
+Each coil has a trace width of $$w=$$ 300 μm, a trace gap of $$s=$$ 150 μm, and $$n=$$ 10 windings. The outer and inner diameters $$D, d$$ are varied as listed below.
 
-| coil number   | outer diameter $`D`$ | inner diameter $`d`$ | expected inductance  $`L`$ |
+| coil number   | outer diameter $$D$$ | inner diameter $$d$$ | expected inductance  $$L$$ |
 |----|-----|-----|-----|
 | 1-3  | 15 mm | 6.3 mm | 1.46 µH |
 | 4, 5  | 16 mm | 7.3 mm | 1.67 µH |
 | 6, 7  | 20 mm | 11.3 mm | 2.58 µH |
 | 8, 9  | 14 mm | 5.3 mm |1.26 µH |
 
-The expected inductance is calculated, according to Eq. (4.1) of Ref.  [[3]](#references), as $`L =   0.635 \mu_0 n^2 d_\text{avg} [\ln(2.07/\rho) + 0.18\rho + 0.13\rho^2] `$, where $`d_\text{avg}=(D+d)/2`$,  $`\rho=(n w + (n - 1) s)/d_\text{avg}`$, and $`\mu_0`$ is the vacuum permeability.
+The expected inductance is calculated, according to Eq. (4.1) of Ref.  [[3]](#references), as $$L =   0.635 \mu_0 n^2 d_\text{avg} [\ln(2.07/\rho) + 0.18\rho + 0.13\rho^2] $$, where $$d_\text{avg}=(D+d)/2$$,  $$\rho=(n w + (n - 1) s)/d_\text{avg}$$, and $$\mu_0$$ is the vacuum permeability.
 
-(Note: A resonator was set up with only one of the coil designs, $`L = 1.6`$ µH. However, the source of information does not mention which geometry this inductance corresponds to.)
+(Note: A resonator was set up with only one of the coil designs, $$L = 1.6$$ µH. However, the source of information does not mention which geometry this inductance corresponds to.)
 
 
 ## Suppliers

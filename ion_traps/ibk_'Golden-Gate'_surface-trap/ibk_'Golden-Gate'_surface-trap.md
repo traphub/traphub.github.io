@@ -1,5 +1,4 @@
-# Trap Name
-Innsbruck 'Golden Gate' surface ion trap
+# Innsbruck 'Golden Gate' surface ion trap
 
 ## Contributors
 ### Original work
