@@ -35,7 +35,7 @@ Cf. [ion-trap-related definitions](../definitions_ion-traps.md) for a descriptio
 
 |    | targeted | achieved |
 |----|----|----|
-| Overall dimensions | 9 mm $$\times$$ 4.5 mm $`\times`$ 0.5 mm | id. |
+| Overall dimensions | 9 mm $$\times$$ 4.5 mm $$\times$$ 0.5 mm | id. |
 | Feature size (min / max) | 10 µm / 8.6 mm | id. |
 | Manufacturing precision | (1-2) µm | id. |
 | Electrode surface roughness | n.a. | n.a. |
@@ -59,17 +59,17 @@ Cf. [ion-trap-related definitions](../definitions_ion-traps.md) for a descriptio
 
 |    | targeted | achieved |
 |----|----------|----------|
-| Capacitance RF to GND | 2.0 pF$`^{\dagger}`$ | n.a. |
+| Capacitance RF to GND | 2.0 pF$$^{\dagger}$$ | n.a. |
 | Quality factor (@ RF drive frequency ) | n.a. | n.a. |
-| Capacitance RF to central DC | 0.14 pF$`^{\dagger}`$ | n.a. |
-| Capacitance central DC to GND | 1.4 pF$`^{\dagger}`$ | n.a. |
-| Capacitance RF to DC segment | 0.0011 pF$`^{\dagger}`$ | n.a. |
-| Capacitance DC segment to GND | 0.19 pF$`^{\dagger}`$ | n.a. |
+| Capacitance RF to central DC | 0.14 pF$$^{\dagger}$$ | n.a. |
+| Capacitance central DC to GND | 1.4 pF$$^{\dagger}$$ | n.a. |
+| Capacitance RF to DC segment | 0.0011 pF$$^{\dagger}$$ | n.a. |
+| Capacitance DC segment to GND | 0.19 pF$$^{\dagger}$$ | n.a. |
 | Leakage current | n.a. | n.a. |
 | Electric strength (breakdown voltage) DC | > 40 V | id. |
 | Electric strength (breakdown voltage) RF | > 400 V | id. |
 
-$`^{\dagger}`$ target capacitance values are derived from finite element simulations of the trap structure.
+$$^{\dagger}$$ target capacitance values are derived from finite element simulations of the trap structure.
 
 ### Thermal environment
 
@@ -85,30 +85,30 @@ $`^{\dagger}`$ target capacitance values are derived from finite element simulat
 |----|----------|----------|
 | Ion-electrode separation | 121 µm | id. |
 | Trapping height above surface| 110 µm | id. |
-| RF drive: voltage @ frequency ($`q = 0.3`$) | ~ 250 V @ 40 MHz | id.  |
+| RF drive: voltage @ frequency ($$q = 0.3$$) | ~ 250 V @ 40 MHz | id.  |
 | DC confinement: maximum voltage (1 MHz axial frequency) | ~ 14 V | id. |
 | Anharmonicity RF / DC potential (max over 3 spatial directions) | n.a. | n.a. |
 | Minimum characteristic distance (min over all electrodes and spatial directions)| 4.6 mm (segments), 0.92 mm (central DC)  | id. |
-| Typical stray electric fields (3 spatial directions)  | n.a. | ~ 100 V/m $`^{\dagger}`$ |
-| Residual micromotion modulation index  (3 spatial directions)  | n.a. | < 0.01 radial, ~ 0.2 axial $`^{\dagger\dagger}`$ |
+| Typical stray electric fields (3 spatial directions)  | n.a. | ~ 100 V/m $$^{\dagger}$$ |
+| Residual micromotion modulation index  (3 spatial directions)  | n.a. | < 0.01 radial, ~ 0.2 axial $$^{\dagger\dagger}$$ |
 | Heating rate @ secular frequency (3 spatial directions)  | n.a. | ~ 20 phonons/s @ 1 MHz axial <br/> n.a. in radial directions |
 
-$`^{\dagger}`$ after running the oven for a long time, stray electric fields can temporarily reach more than 1000 V/m.
+$$^{\dagger}$$ after running the oven for a long time, stray electric fields can temporarily reach more than 1000 V/m.
 
-$`^{\dagger\dagger}`$ the residual axial micromotion modulation index is likely limited by an RF-carrying wire off to the side of the trap.
+$$^{\dagger\dagger}$$ the residual axial micromotion modulation index is likely limited by an RF-carrying wire off to the side of the trap.
 
 ## Technical approach
 The Innsbruck 'Golden Gate' trap, depicted in the figure below, consists of 27 pairs of individually addressable electrodes, a central electrode, and central rf rails. The electrode pairs have a length of 100 μm along z. The central electrode has a width of 30 µm (along x), and the rf rails have a width of 60 µm. The slot width is 100 µm. All electrodes are separated by 10 μm wide and 50 µm deep trenches. The electrode layout yields an ion trapping position 110 μm above the trap plane, and a 121 μm ion-electrode separation. Ion crystals are oriented along the z-axis, and the rf rails produce a confining pseudopotential in the xy-plane.
 
 ![Electrode layout of the Innsbruck 'Golden Gate' trap.](supplemental_material/ibk_Golden-Gate-trap_layout.JPG)</br>
-Figure: Overview of the electrode layout of the Innsbruck 'Golden Gate' trap. The cross section view at the right end of the chip shows the tapered through-chip slot. Between the segment leads are markers used for identification of the trap region relative to the imaging field of view. The total chip dimensions are $`9\times4.5\times0.5\,\text{mm}^3`$.
+Figure: Overview of the electrode layout of the Innsbruck 'Golden Gate' trap. The cross section view at the right end of the chip shows the tapered through-chip slot. Between the segment leads are markers used for identification of the trap region relative to the imaging field of view. The total chip dimensions are $$9\times4.5\times0.5\,\text{mm}^3$$.
 
 ## Technical drawings
 - A [technical drawing](supplemental_material/ibk_Golden-Gate-trap_layout.PDF) with overall dimensions of the trap chip is available in pdf format.
 - The full [3D model](supplemental_material/ibk_Golden-Gate-trap_layout.STEP) of  the trap is available in STEP format.
 
 ## Trap simulation output
-- [Spherical harmonics expansion coefficients](supplemental_material/multipole_coeffs.txt) for the DC electrodes 1-27 as labelled in the figure below. The expansion coefficients are evaluated at the trap centre, marked with a red cross in the figure below, and assuming 1 volt is applied to the respective electrode. The coefficients are consistent with the spherical harmonics expansion in the [ion-trap-related definitions](../definitions_ion-traps.md). Note that the 1st order coefficients $`C_{1,j}`$ have unit 1/mm while the 2nd order coefficients $`C_{2,j}`$ have unit  1/mm². 
+- [Spherical harmonics expansion coefficients](supplemental_material/multipole_coeffs.txt) for the DC electrodes 1-27 as labelled in the figure below. The expansion coefficients are evaluated at the trap centre, marked with a red cross in the figure below, and assuming 1 volt is applied to the respective electrode. The coefficients are consistent with the spherical harmonics expansion in the [ion-trap-related definitions](../definitions_ion-traps.md). Note that the 1st order coefficients $$C_{1,j}$$ have unit 1/mm while the 2nd order coefficients $$C_{2,j}$$ have unit  1/mm². 
 - [List of voltages](supplemental_material/multipole_voltages.txt) required to generate a specific spherical harmonic potential. The voltages are sorted consistently with the electrode labelling in the figure below.
 
 ![Electrode assignment for the trap simulation output of the Innsbruck 'Golden Gate' trap.](supplemental_material/ibk_Golden-Gate-trap_electrode-assignment.JPG)</br>
@@ -130,7 +130,7 @@ The coated trap was glued onto an interposer PCB and its electrodes were wire bo
 n.a.
 
 ## Experience and further comments
-The general behaviour of the trap is good, with basically infinite Doppler-cooled lifetimes for single species ion crystals ($`^{40}\mathrm{Ca}^{+}`$ or $`^{88}\mathrm{Sr}^{+}`$). Storage and control of ion motion of mixed species crystals requires careful control of voltage ramps and stray field compensation; a deeper trapping potential might be useful there. A similar experience in trap operability (stray charges, heating rate, etc.) has been made in the past with predecessors of the trap, having slightly different electrode geometry but identical fabrication method.
+The general behaviour of the trap is good, with basically infinite Doppler-cooled lifetimes for single species ion crystals ($$^{40}\mathrm{Ca}^{+}$$ or $$^{88}\mathrm{Sr}^{+}$$). Storage and control of ion motion of mixed species crystals requires careful control of voltage ramps and stray field compensation; a deeper trapping potential might be useful there. A similar experience in trap operability (stray charges, heating rate, etc.) has been made in the past with predecessors of the trap, having slightly different electrode geometry but identical fabrication method.
 
 ## References
 [1] M. van Mourik et al., *Coherent rotations of qubits within a surface ion-trap quantum computer*, Phys. Rev. A **102**, 022611 (2020), https://doi.org/10.1103/PhysRevA.102.022611, https://arxiv.org/pdf/2001.02440.pdf
