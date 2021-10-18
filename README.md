@@ -28,19 +28,14 @@ Publication has not been clarified yet. However, Gitlab Pages and similar servic
 
 The documentation is split into:
 * [Ion traps](ion_traps/README_ion_traps.md)
-* [Mounts](mounts/README_mounts.md)
-* [Passive electronics: filter boards and resonators](passive_electronics/README_passive_electronics.md)
-* [Active electronics: DACs and RF drives](active_electronics/README_active_electronics.md)
-* [Optical integration](optical_integration/README_optical_integration.md)
+* [Electronics](electronics/README_electronics.md)
 
 Each of these folders come with their own guidelines and templates to address the respective documentation requirements.
 
 ## Contributors
 
 The content presented here has been gathered and reviewed and is maintained by representatives from (in alphabetic order):
-* [ETH Zurich, team of Prof. Jonathan Home](https://tiqi.ethz.ch/)
 * [University of Innsbruck, team of Prof. Rainer Blatt](https://quantumoptics.at/en/)
-* [University of Mainz, team of Prof. Ferdinand Schmidt-Kaler](https://www.quantenbit.physik.uni-mainz.de/)
 Regarding details on the contribution and review process, please have a look [here](CONTRIBUTING.md).
 
 ## File formats
