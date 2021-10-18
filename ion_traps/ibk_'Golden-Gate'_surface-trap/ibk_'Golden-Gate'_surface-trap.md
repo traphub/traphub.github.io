@@ -35,7 +35,7 @@ Cf. [ion-trap-related definitions](../definitions_ion-traps.md) for a descriptio
 
 |    | targeted | achieved |
 |----|----|----|
-| Overall dimensions | 9 mm $`\times`$ 4.5 mm $`\times`$ 0.5 mm | id. |
+| Overall dimensions | 9 mm $$\times$$ 4.5 mm $`\times`$ 0.5 mm | id. |
 | Feature size (min / max) | 10 µm / 8.6 mm | id. |
 | Manufacturing precision | (1-2) µm | id. |
 | Electrode surface roughness | n.a. | n.a. |
