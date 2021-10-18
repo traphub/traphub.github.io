@@ -24,6 +24,7 @@ The trap was designed by Martin van Mourik in 2018, built by Translume [3] (see 
 Cf. [ion-trap-related definitions](../definitions_ion-traps.md) for a description of the listed parameters.
 
 ### Employed materials
+
 | Material | Component | Comment |
 |----|----|----|
 | Fused silica | substrate |  |
@@ -31,6 +32,7 @@ Cf. [ion-trap-related definitions](../definitions_ion-traps.md) for a descriptio
 | Gold | metallization | evaporated|
 
 ### Geometrical/footprint
+
 |    | targeted | achieved |
 |----|----|----|
 | Overall dimensions | 9 mm $`\times`$ 4.5 mm $`\times`$ 0.5 mm | id. |
@@ -40,18 +42,21 @@ Cf. [ion-trap-related definitions](../definitions_ion-traps.md) for a descriptio
 | Electrode metallization thickness | ~ 226 nm | id. |
 
 ### Interface
+
 | Category | Component | # channels | Comment |
 |----|----|----|----|
 | electrical | RF | 1 | voltage range: 400 V |
 | electrical | DC low current | 55 | voltage range: +/- 40 V |
 
 ### Optical
+
 |    | targeted | achieved |
 |------|------|------|
 | Optical access NA (through slot)| 0.27 | id. |
 | Optical access NA (along surface)| 0.05 | id. |
 
 ### Electrical
+
 |    | targeted | achieved |
 |----|----------|----------|
 | Capacitance RF to GND | 2.0 pF$`^{\dagger}`$ | n.a. |
@@ -67,6 +72,7 @@ Cf. [ion-trap-related definitions](../definitions_ion-traps.md) for a descriptio
 $`^{\dagger}`$ target capacitance values are derived from finite element simulations of the trap structure.
 
 ### Thermal environment
+
 |    | targeted | achieved |
 |----|----------|----------|
 | Trap operation temperature | ~ 10 K | id. |
@@ -74,6 +80,7 @@ $`^{\dagger}`$ target capacitance values are derived from finite element simulat
 | Maximum temperature ramp | ~ 4 K/h | id. |
 
 ### Trapology
+
 |    | targeted | achieved |
 |----|----------|----------|
 | Ion-electrode separation | 121 µm | id. |
