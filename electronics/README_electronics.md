@@ -11,7 +11,7 @@ Trapped ions are highly sensitive to electric field noise and supply voltages ne
 - Innsbruck, 1st order RC, 5 kHz
 
 ### RF resonators:
-- [Innsbruck high-temperature superconducting resonator](passive_electronics/ibk_hts_resonator/ibk_hts_resonator.md)
+- [Innsbruck high-temperature superconducting resonator](high_temperature_superconducting_resonator_ibk/ibk_hts_resonator.md)
 
 ## Definitions and Nomenclature
 
