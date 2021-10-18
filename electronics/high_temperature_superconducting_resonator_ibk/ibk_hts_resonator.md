@@ -30,6 +30,7 @@ The HTS coil was designed, wired up and tested by Matthias Brandl at Innsbruck U
 Note: For some quantities, no uncertainties could be found in the source of information.
 
 ### Electrical
+
 |    | targeted | achieved |
 |----|----------|----------|
 | inductance $$L$$ | 1.3 µH - 2.6 µH | 1.4 µH |
@@ -55,6 +56,7 @@ Matching parameters:
 |  $$P_{ref}$$  | 0 % | < 2% |
 
 ### UHV
+
 | targeted | achieved |
 |----------|----------|
 | UHV-compatible at  $$T<20\,$$K | UHV-compatible at  $$T<20\,$$K |
@@ -62,11 +64,13 @@ Matching parameters:
 UHV compatibility was demonstrated by trapping of ions at a temperature $$T<20\,$$K. UHV compatibility at higher temperatures is likely, but was not tested.
 
 ### Mechanical/footprint
+
 | targeted | achieved |
 |----------|----------|
 | minimze resonator volume | outer dimensions of the shielded resonator are 57 mm $$\times$$ 40 mm $$\times$$ 10.2 mm |
 
 ### Thermal (cryo)
+
 |    | targeted | achieved |
 |----|----------|----------|
 | operation temperature $$T$$  | $$\leq 77$$ | $$<88$$ |
